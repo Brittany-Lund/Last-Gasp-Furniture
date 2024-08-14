@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata for the document -->
+    <meta charset="UTF-8"> <!-- Character encoding for the document, ensures proper display of text -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures the webpage is responsive on different devices -->
+    <meta name="author" content="Brittany Lund"> <!-- Author of the document -->
+    <title>Furniture Store</title> <!-- Title of the webpage shown in the browser tab -->
+    <link rel="stylesheet" href="style.css"> <!-- Link to the external CSS file for styling the webpage -->
+</head>
+
+<body>
+    <!-- Container for the purchase button -->
+    <div id="purchase-container">
+        <button id="purchaseBtn">Make a Purchase</button> <!-- Button to start the purchase process -->
+    </div>
+
+    <!-- Container for displaying the invoice -->
+    <div id="invoice-container" style="display:none;"> <!-- Initially hidden, shown after a purchase is made -->
+        <h2>Invoice</h2> <!-- Invoice header -->
+        <div id="invoice"></div> <!-- Placeholder for the generated invoice -->
+        <button id="resetBtn" style="display:none;">Shop Again</button> <!-- Button to reset the page for a new purchase, hidden initially -->
+    </div>-
+
+    <script src="script.js"></script> <!-- Link to the external JavaScript file for functionality -->
+</body>
+</html>
